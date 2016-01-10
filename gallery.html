@@ -1,0 +1,98 @@
+<!DOCTYPE html> <!-- HTML5 doctype -->
+
+<html lang="en"> <!-- HTML5 opening HTML tag with language. The HTML tag can also be used on it's own now. -->
+
+	<head>
+		
+		<meta charset="UTF-8"> <!-- HTML5 charset -->
+		<link href="layout.css" type="text/css" rel="stylesheet">	<!--link to layout stylesheet-->
+		
+		<title>Gallery - WD Cars</title>
+		
+		<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<style>
+		div.img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+
+
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+</style>
+		
+	</head>
+
+	<body>
+			<!--<nav>
+
+                     <ul>
+
+                      <li><a href="home.html">Home</a></li>
+					  <li><a href="about.html">About</a></li>
+					  <li><a href="Service.html">Service</a></li>
+					  <li><a href="gallery.html">Gallery</a></li>
+
+					</ul>
+
+			</nav> this didnt seem to work, can't get working so leaving here for reference-->
+	<div id="navbar"> <!--this div is the navbar-->
+		<table>
+			<tr>
+			
+				<td><a href="index.html">Home</a> </td>
+				<td><a href="about.html">About</a></td>
+				<td><a href="service.html">Service</a></td>
+				<td><a href="gallery.html">Gallery</a></td>
+				<td><a href="contact.html">Contact</a></td>
+			</tr>
+		</table>
+	</div><!--end of navbar div-->
+
+	
+	<img src="images/logo.png" alt="logo" align="left"><!--logo-->		<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+	
+<div class="img">
+  
+    <img src="images/subaru.jpg" alt="subaru" width="300" height="200">
+  
+  <div class="desc">Subaru Impreza</div>
+</div>
+
+<div class="img">
+  
+    <img src="images/toyota.jpg" alt="FT86" width="300" height="200">
+  
+  <div class="desc">Toyota FT86</div>
+</div>
+
+<div class="img">
+  
+    <img src="images/audi.jpg" alt="rs4" width="300" height="200">
+  
+  <div class="desc">Audi RS4</div>
+</div>
+
+<div class="img">
+  
+    <img src="images/focus.jpg" alt="ST" width="300" height="200">
+  
+  <div class="desc">Focus ST</div>
+</div>	
+			
+	</body>
+
+</html>

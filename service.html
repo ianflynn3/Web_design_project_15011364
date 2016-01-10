@@ -1,0 +1,82 @@
+<!DOCTYPE html> <!-- HTML5 doctype -->
+
+<html lang="en"> <!-- HTML5 opening HTML tag with language. The HTML tag can also be used on it's own now. -->
+
+	<head>
+		
+		<meta charset="UTF-8"> <!-- HTML5 charset -->
+		<link href="layout.css" type="text/css" rel="stylesheet">	<!--link to layout stylesheet-->
+		
+		<title>Service - WD Cars</title>
+		
+		<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		
+	</head>
+
+	<body>
+
+			<!--<nav>
+
+                     <ul>
+
+                      <li><a href="home.html">Home</a></li>
+					  <li><a href="about.html">About</a></li>
+					  <li><a href="Service.html">Service</a></li>
+					  <li><a href="gallery.html">Gallery</a></li>
+
+					</ul>
+
+			</nav> this didnt seem to work, can't get working so leaving here for reference-->
+	<div id="navbar"> <!--this div is the navbar-->
+		<table>
+			<tr>
+			
+				<td><a href="index.html">Home</a> </td>
+				<td><a href="about.html">About</a></td>
+				<td><a href="Service.html">Service</a></td>
+				<td><a href="gallery.html">Gallery</a></td>
+				<td><a href="contact.html">Contact</a></td>
+			</tr>
+		</table>
+	</div><!--end of navbar div-->
+	<img src="images/logo.png" alt="logo" align="left"><!--logo--> <br/><br/><br/><br/><br/><br/><br/>
+
+	
+			
+			
+			
+	<div id="form">
+		<form>
+		
+	
+			Name:<input type="text" name="name" Value="type full name here">
+				 <br/>
+				 
+			Phone Number:<input type="text" name="phonenumber">
+				 <br/>
+			
+			Make:
+				<Select name="make">
+					<option value="bmw">BMW</option>
+					<option value="porsche">Porsche</option>
+					<option value="mercedes">Mercedes</option>
+					<option value="audi">Audi</option>
+				 </select><br/>
+				 
+			Model:	 <input type="text" name="model" value="example: 530d"> <br/>
+			
+			Date to be scheduled:<br/>
+			<input type="date" name="date"><br/>
+			
+			Time to be scheduled:<br/>
+			<input type="time" name="time"> <br/>
+			
+			<input type="submit" value="Book me in!">
+		</form>	
+	</div>		
+			
+	</body>
+
+</html>
